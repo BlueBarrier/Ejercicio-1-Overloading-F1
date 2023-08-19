@@ -65,8 +65,8 @@ public class Programa {
                     int disponibleTotal = localidad1.getCantidadDisponible() + localidad5.getCantidadDisponible() + localidad10.getCantidadDisponible(); // la suma de la cantidad de boletos disponibles en cada localidad
                     System.out.printf("\nEn total hay %d boletos disponibles entre las tres localidades.", disponibleTotal); // muestra la cantidad disponible
                     System.out.println("Disponibilidad para la localidad 1: " + localidad1.getCantidadDisponible());
-System.out.p        System.out.println("Disponibilidad para la localidad 5: " + localidad5.getCantidadDisponible());
-System.out.p        System.out.println("Disponibilidad para la localidad 10: "+ localidad10.getCantidadDisponible());
+                    System.out.println("Disponibilidad para la localidad 5: " + localidad5.getCantidadDisponible());
+                    System.out.println("Disponibilidad para la localidad 10: "+ localidad10.getCantidadDisponible());
                     break;
                 case 4: // si se quiere saber la cantidad de boletos por localidad
                     System.out.println("\n");
